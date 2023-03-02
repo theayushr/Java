@@ -60,9 +60,9 @@ class MainVote{
 		Vote obj = new Vote();
 
 		for(int i=0; i<args.length; i++){
-			int youtvote = Integer.parseInt(args[i]);
+			int yourvote = Integer.parseInt(args[i]);
 
-			obj.voting(youtvote);
+			obj.voting(yourvote);
 		}
 
 		obj.winner();
